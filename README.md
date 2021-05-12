@@ -11,9 +11,9 @@ nonDuplicateDocumentsInformation.txt  - This file consists of all documents from
                                         
 Document_item_match.csv   -   This file contains every document and the items they are connected to. Read with pandas.
 
-DocumentsTexts.csv        -   This file contains the text from every document, which were converted from PDFs. Read with pandas.
+DocumentsTexts.csv        -   This file contains the text from every document, which were converted from PDFs. Read with pandas. Download from https://drive.google.com/file/d/1ZlZzmcF5kk2HmMy1m7It8SRFBQ33yBKm/view?usp=sharing
 
-## The following files contain the code
+## The following files contain the code:
 
 
 Retrieving Meeting information.ipynb    -   This notebook file contains the code to convert the xml files to the above txt files. 
