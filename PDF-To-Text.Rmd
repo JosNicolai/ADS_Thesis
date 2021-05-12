@@ -1,0 +1,49 @@
+---
+title: "PDF-To-Text"
+author: "Jos Nicolai"
+date: "5/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(pdftools)
+library(tidyr)
+
+files = list.files(path = "Documents")
+
+```
+
+
+
+```{r}
+print(files[2])
+#pdf_text(paste("Documents/", files[2], sep = ""))
+```
+
+
+
+```{r}
+text = pdf_data(paste("Documents/", files[2], sep = ""))
+```
+
+
+```{r}
+failed_keys = c()
+for (file in files){
+  
+  tryCatch(
+    {
+    text = pdftools::pdf_text(paste("Documents/", file, sep = ""))
+    cat(text, file = paste("Test/", gsub(".pdf", ".txt",file), sep = ""))
+    },
+  error = function(cond){
+    failed_keys = c(failed_keys, file)
+  },
+  warning = function(cond) {
+    
+  }
+  )
+}
+```
+
+
