@@ -11,7 +11,7 @@ DocumentsTexts.csv        -   This file contains the text from every document, w
 shortest_paths.csv    -   A file containing the shortest paths between every item/agenda point. Download from https://drive.google.com/file/d/1bxAumfMJE2LEkb1NoTtQTrwrLNNs7xdr/view?usp=sharing and read with pandas.
 
 
-# Beneath here is outdated, will update soon.
+# Beneath here the pathing and naming is outdated, will update soon.
 
 
 ## ProcessedMeetings directory
