@@ -10,6 +10,7 @@ DocumentsTexts.csv        -   This file contains the text from every document, w
 
 shortest_paths.csv    -   A file containing the shortest paths between every item/agenda point. Download from https://drive.google.com/file/d/1bxAumfMJE2LEkb1NoTtQTrwrLNNs7xdr/view?usp=sharing and read with pandas.
 
+TF_IDF.pkl      -     File containing cosine similarities between all documents. Read with pickle. Download from https://drive.google.com/file/d/1c4mEyC0on761pZ0Awucdh0mcb4RQ5E8_/view?usp=sharing
 
 # Beneath here the pathing and naming is outdated, will update soon.
 
